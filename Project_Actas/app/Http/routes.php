@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('actas','ActasController@index')->name('actas.index');
+Route::get('usuarios','UsuariosController');
